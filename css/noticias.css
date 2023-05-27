@@ -1,0 +1,11 @@
+.row {
+    padding-left: 5%;
+    padding-right: 10%;
+    width: 60vw;
+    border-color: aquamarine !important;
+    outline: auto;
+}
+
+img {
+    width: 60vw !important;
+}
