@@ -1,6 +1,11 @@
 .row {
-    padding-left: 5%;
-    padding-right: 10%;
+    margin-top: 4vw;
+    margin-left: 6vw;
+    margin-bottom: 4vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
     width: 60vw;
     outline: auto;
     outline-color: #d15e92;
@@ -11,7 +16,7 @@ body {
 
 .cudi-banner {
     height: 20vh;
-    width: 100vw;
+    width: 100%;
 }
 
 .bg-light {
