@@ -14,6 +14,14 @@ body {
     background: #ffe0f8 !important;
 }
 
+h1, .fs-4 {
+    padding-bottom: 5vw;
+}
+
+.news-title {
+    word-spacing: 2vw;
+}
+
 .cudi-banner {
     height: 20vh;
     width: 100%;

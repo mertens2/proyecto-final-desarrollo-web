@@ -11,8 +11,10 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../Css/noticias.css" rel="stylesheet">
-    <title>El abuelo de la empanada murio</title>
+    <link href="../css/signin.css" rel="stylesheet">
+    <link href="../css/noticias.css" rel="stylesheet">
+    
+    <title>Document</title>
 </head>
 
 <body>
@@ -28,10 +30,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/noticia-abuelo.html">Abuelo</a>
+                        <a class="nav-link active" aria-current="page" href="noticia-abuelo.html">Abuelo</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/noticia-perrito.html">Perrito</a>
+                        <a class="nav-link" href="noticia-perrito.html">Perrito</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -58,16 +60,30 @@
             </div>
         </div>
     </nav>
-    <div class="container">
-        <div class="row"><img src="../img/tablero-didactico.jpg" class="newspage-image"></div>
-        <div class="row">
-            <h1 class="news-title fs-1">El abuelo de la empanada murio</h1> 
-            <div class="fs-2">Fue asesinado a sangre fría por la hermanastra del amigo de su nieto, usando un tateti envenenado.</div>
-            <div class="fs-4">Sus huellas fueron encontradas en el tablero.</div>
-            <div class="col">Se dice que queria robar el tesoro familiar de la empanada parlante alienigena, sin suerte, pues la misma la llevo a la comisaria. El plan que tenia pareceria impecable a cualquiera, mas el conocimiento de la empanada alienigena la supero.</div>
-            <div class="col">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum aperiam recusandae nostrum commodi quis nesciunt culpa delectus, officia expedita temporibus eveniet ullam enim non natus deleniti adipisci eius libero neque!</div>
-        </div>
-        </div>
+    <div class="padding-div">
+    <main class="form-signin" class="text-center" class="singin-thing">
+        <form>
+          <img class="mb-4" src="../assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
+          <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+      
+          <div class="form-floating">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+          </div>
+          <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Password</label>
+          </div>
+      
+          <div class="checkbox mb-3">
+            <label>
+              <input type="checkbox" value="remember-me"> Remember me
+            </label>
+          </div>
+          <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+          <p class="mt-5 mb-3 text-muted">&copy; 2017–2021</p>
+        </form>
+      </main>
+    </div>
 </body>
-
 </html>
